@@ -1,3 +1,4 @@
+import TodoFilter from "./TodoFilter";
 import TodoInput from "./TodoInput";
 
 const Todo = () => {
@@ -7,6 +8,7 @@ const Todo = () => {
         Todo List App
       </h2>
       <TodoInput />
+      <TodoFilter />
     </div>
   );
 };
